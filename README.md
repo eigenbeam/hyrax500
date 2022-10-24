@@ -2,6 +2,18 @@
 
 1. Create a file named `token.txt` and add your EDL user token to it
 
+  To list EDL tokens your user already has:
+
+        $ ./edl.sh -r
+
+  To create a new EDL token for your user:
+
+        $ ./edl.sh -c
+
+  To delete an EDL token for your user:
+
+        $ ./edl.sh -d <token>
+
 2. Install dependencies
 
         $ pip install -r requirements.txt
