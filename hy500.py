@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import funcy
 import sys
-
+import time
 
 async def fetch(url, session, max_redirects):
     async with session.request('GET', url, max_redirects=max_redirects) as response:
@@ -14,10 +14,13 @@ async def send(token, chunk):
     headers = { 'Authorization': f'Bearer {token}' }
 
     async with aiohttp.ClientSession(headers=headers) as session:
+        st = time.time_ns()
         tasks = [asyncio.ensure_future(fetch(c, session, max_redirects)) for c in chunk]
-        results = await asyncio.gather(*tasks) 
-        print()
-        print('Chunk statuses: ', [status for (url, status, text) in results])
+        results = await asyncio.gather(*tasks)
+        et = time.time_ns()
+        print(f'{(et-st)/1000000}')
+        statuses = [url for (url, status, text) in results]
+        print('Chunk statuses: ', statuses)
         for (url, status, content) in results:
             if status == 500:
                 print('--------------------------------')
