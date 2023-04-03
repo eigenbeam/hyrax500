@@ -4,14 +4,23 @@ import funcy
 import sys
 import time
 
+max_failures = 100
+
+
+def save_content(content, name):
+    """ Save the content in a file """
+    with open(name, 'wb') as f:
+            f.write(content)
+
+
 async def fetch(url, session, max_redirects):
     async with session.request('GET', url, max_redirects=max_redirects) as response:
         return (response.url, response.status, await response.read())
 
 
-async def send(token, chunk):
+async def send(token, chunk, file_name):
     max_redirects = len(chunk) * 8
-    headers = { 'Authorization': f'Bearer {token}' }
+    headers = { 'Authorization': f'Bearer {token}', 'Accepts': 'deflate' }
 
     async with aiohttp.ClientSession(headers=headers) as session:
         st = time.time_ns()
@@ -27,9 +36,23 @@ async def send(token, chunk):
                 print(f'URL: {url}')
                 print('Response content:')
                 print(content)
+            elif status != 200:
+                global failures
+                failures += 1
+                print('--------------------------------')
+                print(f'URL: {url}')
+                print(f'Response status: {status}')
+                if failures > max_failures:
+                    sys.exit("Too many failures!")
+            else:
+                # only save if 'file_name' is not empty
+                if file_name != '':
+                    global file_number
+                    file_number += 1
+                    save_content(content, f'{file_name}_{file_number}')
 
 
-async def main(token_fn, concurrent, url_fn):
+async def main(token_fn, concurrent, url_fn, file_name):
     with open(token_fn, 'rt') as f:
         token = f.readline().strip()
     with open(url_fn, 'rt') as f:
@@ -39,7 +62,7 @@ async def main(token_fn, concurrent, url_fn):
     print(f'Sending chunks of {concurrent} concurrent requests')
 
     for chunk in funcy.chunks(concurrent, requests):
-        await send(token, chunk)
+        await send(token, chunk, file_name)
 
 
 if __name__ == '__main__':
@@ -47,4 +70,12 @@ if __name__ == '__main__':
     concurrent = int(sys.argv[2])
     url_fn = sys.argv[3]
 
-    asyncio.run(main(token_fn, concurrent, url_fn))
+    # If file_name is given, save the responses in numbered files, otherwise don't save them
+    file_name = ""
+    if len(sys.argv) == 5:
+        file_name = sys.argv[4]
+
+    file_number = 0     # file_number is a global
+    failures = 0        # failures is global
+
+    asyncio.run(main(token_fn, concurrent, url_fn, file_name))
