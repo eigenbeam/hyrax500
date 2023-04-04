@@ -3,11 +3,17 @@ import asyncio
 import funcy
 import sys
 import time
-from random import *
+import random
 
-save_sample_rate = 0.01
+save_sample_rate = 1    # percent 1 to 100
 max_failures = 100
 repeat = True
+
+
+def sample_this_content():
+    """ Return True save_sample_rate percent of the time """
+    return random.randint(1, int(100/save_sample_rate)) == 1
+
 
 def save_content(content, name):
     """ Save the content in a file """
