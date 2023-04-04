@@ -3,9 +3,11 @@ import asyncio
 import funcy
 import sys
 import time
+from random import *
 
+save_sample_rate = 0.01
 max_failures = 100
-
+repeat = True
 
 def save_content(content, name):
     """ Save the content in a file """
@@ -36,17 +38,20 @@ async def send(token, chunk, file_name):
                 print(f'URL: {url}')
                 print('Response content:')
                 print(content)
-            elif status != 200:
+
+            if status != 200:
                 global failures
                 failures += 1
                 print('--------------------------------')
                 print(f'URL: {url}')
                 print(f'Response status: {status}')
+                save_content(content, f'error_{failures}')
                 if failures > max_failures:
                     sys.exit("Too many failures!")
             else:
-                # only save if 'file_name' is not empty
-                if file_name != '':
+                # only save if 'file_name' is not empty and either every response should
+                # be saved or
+                if file_name != '' and (save_sample_rate == 1.0 or sample_this_content()):
                     global file_number
                     file_number += 1
                     save_content(content, f'{file_name}_{file_number}')
@@ -79,3 +84,5 @@ if __name__ == '__main__':
     failures = 0        # failures is global
 
     asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+    while repeat:
+        asyncio.run(main(token_fn, concurrent, url_fn, file_name))
