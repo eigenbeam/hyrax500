@@ -5,14 +5,14 @@ import sys
 import time
 import random
 
-save_sample_rate = 1    # percent 1 to 100
+save_sample_rate = 10    # percent 1 to 100
 max_failures = 100
 repeat = True
 
 
-def sample_this_content():
-    """ Return True save_sample_rate percent of the time """
-    return random.randint(1, int(100/save_sample_rate)) == 1
+def random_true(percent_true):
+    """ Return True percent_true of the time """
+    return random.random() < percent_true / 100
 
 
 def save_content(content, name):
@@ -57,10 +57,11 @@ async def send(token, chunk, file_name):
             else:
                 # only save if 'file_name' is not empty and either every response should
                 # be saved or
-                if file_name != '' and (save_sample_rate == 1.0 or sample_this_content()):
+                if file_name != '' and random_true(save_sample_rate):
+                    global run_number
                     global file_number
                     file_number += 1
-                    save_content(content, f'{file_name}_{file_number}')
+                    save_content(content, f'{file_name}_{run_number}_{file_number}')
 
 
 async def main(token_fn, concurrent, url_fn, file_name):
@@ -86,9 +87,11 @@ if __name__ == '__main__':
     if len(sys.argv) == 5:
         file_name = sys.argv[4]
 
+    run_number = 1
     file_number = 0     # file_number is a global
     failures = 0        # failures is global
 
     asyncio.run(main(token_fn, concurrent, url_fn, file_name))
     while repeat:
+        run_number += 1
         asyncio.run(main(token_fn, concurrent, url_fn, file_name))
