@@ -94,4 +94,7 @@ if __name__ == '__main__':
     asyncio.run(main(token_fn, concurrent, url_fn, file_name))
     while repeat:
         run_number += 1
-        asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+        try:
+            asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+        except aiohttp.client_exceptions.TooManyRedirects as e:
+            print(f'Too many redirects: {e.code}, {e.message}')
