@@ -99,6 +99,10 @@ if __name__ == '__main__':
             info = f'Too many redirects: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
+        except aiohttp.client_exceptions.ServerDisconnectedError as e:
+            info = f'Server Disconnected: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
 
     if not repeat:
         asyncio.run(main(token_fn, concurrent, url_fn, file_name))
