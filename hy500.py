@@ -19,7 +19,7 @@ async def send(token, chunk):
         results = await asyncio.gather(*tasks)
         et = time.time_ns()
         print(f'{(et-st)/1000000}')
-        statuses = [url for (url, status, text) in results]
+        statuses = [status for (url, status, text) in results]
         print('Chunk statuses: ', statuses)
         for (url, status, content) in results:
             if status == 500:
