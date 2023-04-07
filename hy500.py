@@ -5,7 +5,7 @@ import sys
 import time
 import random
 
-save_sample_rate = 10    # percent 1 to 100
+save_sample_rate = 2    # percent 1 to 100
 max_failures = 100
 repeat = True
 
@@ -27,7 +27,7 @@ async def fetch(url, session, max_redirects):
 
 
 async def send(token, chunk, file_name):
-    max_redirects = len(chunk) * 8
+    max_redirects = len(chunk) * 16
     headers = { 'Authorization': f'Bearer {token}', 'Accepts': 'deflate' }
 
     async with aiohttp.ClientSession(headers=headers) as session:
@@ -35,7 +35,7 @@ async def send(token, chunk, file_name):
         tasks = [asyncio.ensure_future(fetch(c, session, max_redirects)) for c in chunk]
         results = await asyncio.gather(*tasks)
         et = time.time_ns()
-        print(f'{(et-st)/1000000}')
+        print(f'Time to gather {len(chunk)} responses: {(et-st)/1000000} ms')     # Print time in ms
         statuses = [url for (url, status, text) in results]
         print('Chunk statuses: ', statuses)
         for (url, status, content) in results:
@@ -87,14 +87,18 @@ if __name__ == '__main__':
     if len(sys.argv) == 5:
         file_name = sys.argv[4]
 
-    run_number = 1
+    run_number = 0
     file_number = 0     # file_number is a global
     failures = 0        # failures is global
 
-    asyncio.run(main(token_fn, concurrent, url_fn, file_name))
     while repeat:
         run_number += 1
         try:
             asyncio.run(main(token_fn, concurrent, url_fn, file_name))
         except aiohttp.client_exceptions.TooManyRedirects as e:
-            print(f'Too many redirects: {e.code}, {e.message}')
+            info = f'Too many redirects: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
+
+    if not repeat:
+        asyncio.run(main(token_fn, concurrent, url_fn, file_name))
