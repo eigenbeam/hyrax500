@@ -1,3 +1,4 @@
+
 import aiohttp
 import asyncio
 import funcy
@@ -95,12 +96,17 @@ if __name__ == '__main__':
         run_number += 1
         try:
             asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+
         except aiohttp.client_exceptions.TooManyRedirects as e:
             info = f'Too many redirects: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
         except aiohttp.client_exceptions.ServerDisconnectedError as e:
             info = f'Server Disconnected: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
+        except aiohttp.TimeoutError as e:
+            info = f'Timeout Error: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
 

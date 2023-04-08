@@ -1,0 +1,165 @@
+root@e37dc70f9df5 /]# more /var/log/bes/cleanup.log
+########################################################################################
+# Begin Pass: 1 (Fri Apr 7 22:39:34 UTC 2023)
+########################################################################################
+# Begin Pass: 2 (Fri Apr 7 23:09:34 UTC 2023)
+########################################################################################
+# Begin Pass: 3 (Fri Apr 7 23:39:34 UTC 2023)
+########################################################################################
+# Begin Pass: 4 (Sat Apr 8 00:09:34 UTC 2023)
+########################################################################################
+# Begin Pass: 5 (Sat Apr 8 00:39:34 UTC 2023)
+########################################################################################
+# Begin Pass: 6 (Sat Apr 8 01:09:34 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 01:09:34 UTC 2023)
+#
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_h9sywz_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_uVals2_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_JbvE1N_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_JcPSpw_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_OEAD5Q_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_izQ5UI_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_rN6Wjt_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_9mPMYV_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_8NyePz_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_92NOtq_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_ot5HuB_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_70C9r4_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_BTNtrS_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_WzFXHO_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_6zw7Od_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_2q3L7l_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 01:09:34 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  7 23:59 /tmp/bes_rr_tmp/bes_util_VaPANd_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 01:09:34 UTC 2023)
+########################################################################################
+# Begin Pass: 7 (Sat Apr 8 01:39:34 UTC 2023)
+########################################################################################
+# Begin Pass: 8 (Sat Apr 8 02:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 9 (Sat Apr 8 02:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 10 (Sat Apr 8 03:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 11 (Sat Apr 8 03:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 12 (Sat Apr 8 04:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 13 (Sat Apr 8 04:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 14 (Sat Apr 8 05:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 15 (Sat Apr 8 05:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 16 (Sat Apr 8 06:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 17 (Sat Apr 8 06:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 18 (Sat Apr 8 07:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 19 (Sat Apr 8 07:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 20 (Sat Apr 8 08:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 21 (Sat Apr 8 08:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 22 (Sat Apr 8 09:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 23 (Sat Apr 8 09:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 24 (Sat Apr 8 10:09:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 10:09:35 UTC 2023)
+#
+Sat Apr 8 10:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 08:49 /tmp/bes_rr_tmp/bes_util_epCOy3_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 10:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 08:45 /tmp/bes_rr_tmp/bes_util_D2R0Q9_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 10:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 08:52 /tmp/bes_rr_tmp/bes_util_3WOQMh_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 10:09:35 UTC 2023 removed: -rw------- 1 bes bes 8812400 Apr  8 08:50 /tmp/bes_rr_tmp/bes_util_TVo5dG_#ATL03_20200131230704_05530610_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 10:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 25 (Sat Apr 8 10:39:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 10:39:35 UTC 2023)
+#
+Sat Apr 8 10:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 09:38 /tmp/bes_rr_tmp/bes_util_IIauNY_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 10:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 26 (Sat Apr 8 11:09:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 11:09:35 UTC 2023)
+#
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 22140759 Apr  8 09:39 /tmp/bes_rr_tmp/bes_util_LzefXh_#ATL03_20200714235814_03000802_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  8 09:41 /tmp/bes_rr_tmp/bes_util_ftrymx_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 13962513 Apr  8 09:40 /tmp/bes_rr_tmp/bes_util_1b7j6O_#ATL03_20200131234815_05540602_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 3803834 Apr  8 09:41 /tmp/bes_rr_tmp/bes_util_WG1d4G_#ATL03_20200131233411_05530614_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 3504046 Apr  8 09:42 /tmp/bes_rr_tmp/bes_util_qWt556_#ATL03_20200331235733_00830708_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 09:40 /tmp/bes_rr_tmp/bes_util_EdOjaR_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 09:41 /tmp/bes_rr_tmp/bes_util_ssSeUT_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  8 09:42 /tmp/bes_rr_tmp/bes_util_cSin2a_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 09:39 /tmp/bes_rr_tmp/bes_util_bg1ESm_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 11:09:35 UTC 2023 removed: -rw------- 1 bes bes 22140759 Apr  8 09:42 /tmp/bes_rr_tmp/bes_util_fkxQ7F_#ATL03_20200714235814_03000802_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 11:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 27 (Sat Apr 8 11:39:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 11:39:35 UTC 2023)
+#
+Sat Apr 8 11:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 10:09 /tmp/bes_rr_tmp/bes_util_AbEKbK_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 11:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 28 (Sat Apr 8 12:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 29 (Sat Apr 8 12:39:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 12:39:35 UTC 2023)
+#
+Sat Apr 8 12:39:35 UTC 2023 removed: -rw------- 1 bes bes 0 Apr  8 11:16 /tmp/bes_rr_tmp/bes_util_Qj4bTH
+Sat Apr 8 12:39:35 UTC 2023 removed: -rw------- 1 bes bes 0 Apr  8 11:16 /tmp/bes_rr_tmp/bes_util_5DzKah
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 12:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 30 (Sat Apr 8 13:09:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 13:09:35 UTC 2023)
+#
+Sat Apr 8 13:09:35 UTC 2023 removed: -rw------- 1 bes bes 0 Apr  8 11:47 /tmp/bes_rr_tmp/bes_util_tAiO8a
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 13:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 31 (Sat Apr 8 13:39:35 UTC 2023)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Begin cleanup of /tmp/bes_rr_tmp (Sat Apr 8 13:39:35 UTC 2023)
+#
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3504046 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_0Sfrdr_#ATL03_20200331235733_00830708_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3504046 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_V0ohKH_#ATL03_20200331235733_00830708_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_qf8MPG_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_oWeI0l_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_TF49Fw_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 8812400 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_HDHvWa_#ATL03_20200131230704_05530610_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_JTUqyX_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 3178182 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_hGk2hd_#ATL03_20200131224657_05530607_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 6472709 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_Ub4GdW_#ATL03_20200202001542_05690610_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 13962513 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_BGx6pW_#ATL03_20200131234815_05540602_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 22140759 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_xnWsO2_#ATL03_20200714235814_03000802_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 22140759 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_mW4kcT_#ATL03_20200714235814_03000802_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 8812400 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_XpJ1Ub_#ATL03_20200131230704_05530610_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 8812400 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_GrwpZf_#ATL03_20200131230704_05530610_005_01.h5.dmrpp
+Sat Apr 8 13:39:35 UTC 2023 removed: -rw------- 1 bes bes 8812400 Apr  8 12:12 /tmp/bes_rr_tmp/bes_util_mYIbZL_#ATL03_20200131230704_05530610_005_01.h5.dmrpp
+#
+# End cleanup of /tmp/bes_rr_tmp (Sat Apr 8 13:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 32 (Sat Apr 8 14:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 33 (Sat Apr 8 14:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 34 (Sat Apr 8 15:09:35 UTC 2023)
+########################################################################################
+# Begin Pass: 35 (Sat Apr 8 15:39:35 UTC 2023)
+########################################################################################
+# Begin Pass: 36 (Sat Apr 8 16:09:35 UTC 2023)
+[root@e37dc70f9df5 /]#
