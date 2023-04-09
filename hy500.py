@@ -105,8 +105,8 @@ if __name__ == '__main__':
             info = f'Server Disconnected: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
-        except aiohttp.TimeoutError as e:
-            info = f'Timeout Error: {e}'
+        except aiohttp.client_exceptions.ClientOSError as e:
+            info = f'Client OS Error: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
 
