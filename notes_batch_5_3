@@ -1,4 +1,6 @@
 
+The command: python3 ../hy500.py ../uat-token 32 ../500.txt stuff
+
 516 sets of 193 URLs
 
 (hyrax500) hyrax500/batch_5_3 % ls -1 error_* | wc -l
@@ -212,3 +214,5 @@
 -rw-r--r--  1 jimg  staff   47 Apr 10 07:01 client_error_515
 -rw-r--r--  1 jimg  staff   52 Apr 10 07:06 client_error_516
 (hyrax500) hyrax500/batch_5_3 %
+
+See stuff_ls.txt for times, sizes of sampled responses
