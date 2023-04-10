@@ -1,5 +1,5 @@
 
-519 sets of 193 URLs
+516 sets of 193 URLs
 
 (hyrax500) hyrax500/batch_5_3 % ls -1 error_* | wc -l
       59
