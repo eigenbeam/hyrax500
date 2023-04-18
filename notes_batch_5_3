@@ -6,6 +6,14 @@ The command: python3 ../hy500.py ../uat-token 32 ../500.txt stuff
 (hyrax500) hyrax500/batch_5_3 % ls -1 error_* | wc -l
       59
 
+All of the errors are the DMR fail except error_58, which says:
+
+The specific error message associated with your request was:
+ERROR - Problem with data transfer. Message: cURL_error_buffer: &#39;OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 104&#39;
+cURL_message: &#39;Failure when receiving data from the peer&#39; (code: 56)
+CURLINFO_EFFECTIVE_URL: https://cmr.uat.earthdata.nasa.gov/search/granules.umm_json_v1_4?collection_concept_id=C1241426907-NSIDC_CUAT&amp;granule_ur=ATL08_20200103182923_01230602_005_01.h5
+
+
 (hyrax500) hyrax500/batch_5_3 % ls -l error_*
 -rw-r--r--  1 jimg  staff  2745 Apr  9 11:11 error_1
 -rw-r--r--  1 jimg  staff  2744 Apr  9 15:38 error_10
@@ -215,4 +223,26 @@ The command: python3 ../hy500.py ../uat-token 32 ../500.txt stuff
 -rw-r--r--  1 jimg  staff   52 Apr 10 07:06 client_error_516
 (hyrax500) hyrax500/batch_5_3 %
 
+137 Too many redirects
+
+The four files with other client errors are:
+client_error_513
+client_error_514
+client_error_515
+client_error_516
+
+These were:
+
+Client OS Error: [Errno 60] Operation timed out
+and then ...516 was: Client OS Error: [Errno 54] Connection reset by peer
+
 See stuff_ls.txt for times, sizes of sampled responses
+
+Looking at the UAT hosts:
+
+Each has just one Hyrax docker container.
+
+The bes.log files are similar in appearance to the previous ones described in the batch_5_2
+analysis. There are other users hitting the server.
+
+The temporary files have been cleaned up properly.
