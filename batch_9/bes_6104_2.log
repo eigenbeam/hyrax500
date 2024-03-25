@@ -1,6 +1,0 @@
-1682548368|&|60|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Concurrent Transfer Threads: Enabled. max_transfer_threads: 16
-1682548368|&|60|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Concurrent Compute Threads: Enabled. max_compute_threads: 512
-1682548368|&|60|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Contiguous Concurrency Threshold: 2097152 bytes.
-1682548368|&|62|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Concurrent Transfer Threads: Enabled. max_transfer_threads: 16
-1682548368|&|62|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Concurrent Compute Threads: Enabled. max_compute_threads: 512
-1682548368|&|62|&|info|&|DmrppRequestHandler::DmrppRequestHandler() - Contiguous Concurrency Threshold: 2097152 bytes.

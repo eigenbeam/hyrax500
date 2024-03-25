@@ -97,18 +97,23 @@ if __name__ == '__main__':
         try:
             asyncio.run(main(token_fn, concurrent, url_fn, file_name))
 
-        except aiohttp.client_exceptions.TooManyRedirects as e:
-            info = f'Too many redirects: {e}'
+        except aiohttp.ClientPayloadError as e:
+            info = f'Client Payload Error: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_payload_error_{run_number}')
+        except aiohttp.ClientResponseError as e:
+            info = f'Client Response Error: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_response_error_{run_number}')
+        except aiohttp.ClientConnectionError as e:
+            info = f'Client Connection Error: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'client_connection_error_{run_number}')
+        except aiohttp.ClientError as e:
+            info = f'Client Error: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
-        except aiohttp.client_exceptions.ServerDisconnectedError as e:
-            info = f'Server Disconnected: {e}'
-            print(info)
-            save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
-        except aiohttp.client_exceptions.ClientOSError as e:
-            info = f'Client OS Error: {e}'
-            print(info)
-            save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
+
 
     if not repeat:
         asyncio.run(main(token_fn, concurrent, url_fn, file_name))
