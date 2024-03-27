@@ -19,7 +19,7 @@ def random_true(percent_true):
 def save_content(content, name):
     """ Save the content in a file """
     with open(name, 'wb') as f:
-            f.write(content)
+        f.write(content)
 
 
 async def fetch(url, session, max_redirects):
@@ -29,7 +29,7 @@ async def fetch(url, session, max_redirects):
 
 async def send(token, chunk, file_name):
     max_redirects = len(chunk) * 16
-    headers = { 'Authorization': f'Bearer {token}', 'Accepts': 'deflate' }
+    headers = { 'Authorization': f'Bearer {token}', 'Accepts': 'deflate', 'User-Agent': 'James-hy500' }
 
     async with aiohttp.ClientSession(headers=headers) as session:
         st = time.time_ns()
@@ -113,6 +113,10 @@ if __name__ == '__main__':
             info = f'Client Error: {e}'
             print(info)
             save_content(bytes(info, 'ascii'), f'client_error_{run_number}')
+        except asyncio.TimeoutError as e:
+            info = f'Client Timeout Error: {e}'
+            print(info)
+            save_content(bytes(info, 'ascii'), f'timeout_error_{run_number}')
 
 
     if not repeat:
