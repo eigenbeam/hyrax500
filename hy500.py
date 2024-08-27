@@ -6,6 +6,11 @@ import sys
 import time
 import random
 
+# save_sample_rate = 100    # percent 1 to 100
+# max_failures = 100
+# repeat = False
+
+# Old values for testing SIT data accesses. jhrg 4/10/24
 save_sample_rate = 2    # percent 1 to 100
 max_failures = 100
 repeat = True
@@ -22,6 +27,13 @@ def save_content(content, name):
         f.write(content)
 
 
+def save_timing_info(timing, name):
+    """ Save time to get the next batch of requests. """
+    with open(name, 'a') as f:
+        f.write(timing)
+        f.write('\n')
+
+
 async def fetch(url, session, max_redirects):
     async with session.request('GET', url, max_redirects=max_redirects) as response:
         return (response.url, response.status, await response.read())
@@ -29,16 +41,21 @@ async def fetch(url, session, max_redirects):
 
 async def send(token, chunk, file_name):
     max_redirects = len(chunk) * 16
-    headers = { 'Authorization': f'Bearer {token}', 'Accepts': 'deflate', 'User-Agent': 'James-hy500' }
+    headers = {'Authorization': f'Bearer {token}', 'Accepts': 'deflate', 'User-Agent': 'James-hy500'}
+    run_log = f'{file_name}_timing.txt'
 
     async with aiohttp.ClientSession(headers=headers) as session:
         st = time.time_ns()
         tasks = [asyncio.ensure_future(fetch(c, session, max_redirects)) for c in chunk]
         results = await asyncio.gather(*tasks)
         et = time.time_ns()
-        print(f'Time to gather {len(chunk)} responses: {(et-st)/1000000} ms')     # Print time in ms
+        timing_info = f'Time to gather {len(chunk)} responses: {(et-st)/1000000} ms'
+        print(timing_info)     # Print time in ms
+        save_timing_info(timing_info, run_log)
+
         statuses = [url for (url, status, text) in results]
         print('Chunk statuses: ', statuses)
+
         for (url, status, content) in results:
             if status == 500:
                 print('--------------------------------')
@@ -52,7 +69,10 @@ async def send(token, chunk, file_name):
                 print('--------------------------------')
                 print(f'URL: {url}')
                 print(f'Response status: {status}')
+
                 save_content(content, f'error_{failures}')
+                save_timing_info(f'Error: {status}; {url}\n', run_log)
+
                 if failures > max_failures:
                     sys.exit("Too many failures!")
             else:
@@ -91,6 +111,7 @@ if __name__ == '__main__':
     run_number = 0
     file_number = 0     # file_number is a global
     failures = 0        # failures is global
+    failure_500 = 0
 
     while repeat:
         run_number += 1
@@ -120,4 +141,11 @@ if __name__ == '__main__':
 
 
     if not repeat:
+        st = time.time_ns()
+
         asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+
+        et = time.time_ns()
+        timing_info = f'Time to process all responses: {(et-st)/1000000} ms'
+        print(timing_info)     # Print time in ms
+        save_timing_info(timing_info, f'{file_name}_timing.txt')
