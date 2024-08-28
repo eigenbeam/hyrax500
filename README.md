@@ -20,9 +20,15 @@
 
 3. Run with 16 concurrent requests:
 
-        $ python hy500.py token.txt 16 500.txt
+        $ python hy500.py token.txt 16 500.txt base_name
 
 ## Output
 
 You'll see the HTTP status codes of each request batch. If there are 500 errors
 for any in the batch, the URL and content of the response will be printed.
+Valid responses will be saved to files named 'base_name'_N where N is the run
+number.
+
+Unlike the original version of hy500, this version runs in an infinite loop, 
+cycling through the URLs in the third argument forever.
+

@@ -2,7 +2,7 @@
 
 help()
 {
-   echo "Perform basic Earthdata Login user token operations"
+   echo "Perform basic Earthdata Login user token operations. Works with PROD."
    echo
    echo "Syntax: edl.sh [-u|c|r|d|h]"
    echo "options:"
@@ -49,7 +49,7 @@ read -sp "EDL Password for '$userid': " pwd; echo
 s=$(echo -n "$userid:$pwd"|base64)
 auth_hdr="Authorization: Basic $s"
 
-base_url="https://uat.urs.earthdata.nasa.gov"
+base_url="https://urs.earthdata.nasa.gov"
 
 JQ=$(command -v jq)
 if [ -z "$JQ" ]; then
