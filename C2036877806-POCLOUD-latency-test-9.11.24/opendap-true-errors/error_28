@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="/docs/css/contents.css" type="text/css"/>
+
+    <title>Hyrax - Bad Gateway (502)</title>
+    <style type="text/css">
+        <!--
+        .style1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        -->
+    </style>
+</head>
+
+
+<body>
+<p>&nbsp;</p>
+
+<h1 align="center">Hyrax - Bad Gateway (502)</h1>
+<hr noshade="noshade" size="1"/>
+<table border="0" width="100%">
+    <tbody>
+    <tr>
+        <td>
+            <img style="width: 320px; height: 426px;"
+                 src="/docs/images/BadGateway.png"
+                 alt="Error 502 - Bad Gateway"
+                 title="Bad Gateway"
+                    />
+        </td>
+        <td><p class="style1" align="left">Oops!</p>
+
+            <p align="left">Drat! I was unable to act as a gateway to the requested remote resource..</p>
+            
+            <p align="left">The specific error message associated with your request was:</p>
+            <blockquote> <p><strong>CurlUtils::super_easy_perform() - ERROR - Made 3 failed attempts to retrieve the URL https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/GOES16-SST-OSISAF-L3C-v1.0/2021/347/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.nc.dmrpp The retry limit has been exceeded. Giving up! CURLINFO_EFFECTIVE_URL: https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/GOES16-SST-OSISAF-L3C-v1.0/2021/347/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.nc.dmrpp Returned HTTP_STATUS: 502. This error for a DAAC-owned DMR++ could be from Hyrax, CMR, TEA, or S3. </strong></p> </blockquote>
+            
+
+            
+            <p align="left"> If you think that the server is broken (that the URL you submitted should have worked),
+                then please contact the OPeNDAP user support coordinator at:
+                <a href="mailto:support@opendap.org?subject=Hyrax Error 502&amp;body=%0A%0A%0A%0A%0A# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --%0A# %0A# We&#39;re sorry you had a problem using the server.%0A# Please use the space above to describe what you%0A# were trying to do and we will try to assist you.%0A# Thanks,%0A# OPeNDAP Support.%0A# %0A# -- -- -- hyrax error info, please include -- -- --%0A# %0A# ReqInfo.getRequestUrl(): https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.dap.nc4%0A# request_url: https://opendap.sit.earthdata.nasa.gov/error/error502.jsp%0A# protocol: HTTP/1.1%0A# server: opendap.sit.earthdata.nasa.gov%0A# port: 443%0A# javax.servlet.forward.request_uri: /collections/C2036877806-POCLOUD/granules/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.dap.nc4%0A# query_string: dap4.ce=#lon##lat##wind_speed%0A# status: 502%0A# message: CurlUtils::super_easy_perform() - ERROR - Made 3 failed attempts to retrieve the URL https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/GOES16-SST-OSISAF-L3C-v1.0/2021/347/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.nc.dmrpp The retry limit has been exceeded. Giving up! CURLINFO_EFFECTIVE_URL: https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/GOES16-SST-OSISAF-L3C-v1.0/2021/347/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.nc.dmrpp Returned HTTP_STATUS: 502. This error for a DAAC-owned DMR++ could be from Hyrax, CMR, TEA, or S3.%0A# %0A# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --%0A">support@opendap.org</a>
+            </p>
+            
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr noshade="noshade" size="1"/>
+<h1 align="center">Hyrax - Bad Gateway (502)</h1>
+</body>
+</html>

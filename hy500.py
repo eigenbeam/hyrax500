@@ -11,9 +11,9 @@ import random
 # repeat = False
 
 # Old values for testing SIT data accesses. jhrg 4/10/24
-save_sample_rate = 2    # percent 1 to 100
+save_sample_rate = 5   # percent 1 to 100
 max_failures = 100
-repeat = True
+repeat = False
 
 
 def random_true(percent_true):
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     failures = 0        # failures is global
     failure_500 = 0
 
-    while repeat:
+    while True:
         run_number += 1
         try:
             asyncio.run(main(token_fn, concurrent, url_fn, file_name))
@@ -139,13 +139,15 @@ if __name__ == '__main__':
             print(info)
             save_content(bytes(info, 'ascii'), f'timeout_error_{run_number}')
 
+        if not repeat:
+            break
 
-    if not repeat:
-        st = time.time_ns()
-
-        asyncio.run(main(token_fn, concurrent, url_fn, file_name))
-
-        et = time.time_ns()
-        timing_info = f'Time to process all responses: {(et-st)/1000000} ms'
-        print(timing_info)     # Print time in ms
-        save_timing_info(timing_info, f'{file_name}_timing.txt')
+    # if not repeat:
+    #     st = time.time_ns()
+    #
+    #     asyncio.run(main(token_fn, concurrent, url_fn, file_name))
+    #
+    #     et = time.time_ns()
+    #     timing_info = f'Time to process all responses: {(et-st)/1000000} ms'
+    #     print(timing_info)     # Print time in ms
+    #     save_timing_info(timing_info, f'{file_name}_timing.txt')

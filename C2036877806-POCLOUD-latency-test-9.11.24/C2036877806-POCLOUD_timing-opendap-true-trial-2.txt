@@ -1,0 +1,12 @@
+Time to gather 32 responses: 10933.419 ms
+Time to gather 32 responses: 7810.081 ms
+Time to gather 32 responses: 9441.022 ms
+Time to gather 32 responses: 16269.816 ms
+Time to gather 32 responses: 7592.338 ms
+Time to gather 32 responses: 8834.325 ms
+Time to gather 32 responses: 7315.399 ms
+Time to gather 32 responses: 7114.032 ms
+Time to gather 32 responses: 6992.13 ms
+Time to gather 32 responses: 7133.474 ms
+Error: 404; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20220101000000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20220101_000000-v02.0-fv01.0.dap.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+

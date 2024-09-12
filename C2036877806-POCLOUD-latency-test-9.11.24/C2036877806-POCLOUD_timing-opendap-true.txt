@@ -1,0 +1,122 @@
+Time to gather 1 responses: 8607.453 ms
+Time to gather 1 responses: 8321.851 ms
+Time to gather 1 responses: 7238.876 ms
+Time to gather 1 responses: 6209.712 ms
+Time to gather 1 responses: 5861.387 ms
+Time to gather 1 responses: 6911.777 ms
+Time to gather 1 responses: 7074.2 ms
+Time to gather 1 responses: 6934.387 ms
+Time to gather 1 responses: 6024.829 ms
+Time to gather 1 responses: 6360.166 ms
+Time to gather 1 responses: 6188.389 ms
+Time to gather 1 responses: 5953.791 ms
+Time to gather 1 responses: 6409.174 ms
+Time to gather 1 responses: 6621.553 ms
+Time to gather 1 responses: 6900.82 ms
+Time to gather 1 responses: 7103.177 ms
+Time to gather 1 responses: 6886.295 ms
+Time to gather 1 responses: 5638.237 ms
+Time to gather 1 responses: 6838.124 ms
+Time to gather 1 responses: 7008.886 ms
+Time to gather 8 responses: 8241.222 ms
+Time to gather 8 responses: 7587.721 ms
+Time to gather 8 responses: 7159.979 ms
+Time to gather 8 responses: 7300.297 ms
+Time to gather 8 responses: 7562.772 ms
+Time to gather 8 responses: 7076.205 ms
+Time to gather 8 responses: 7271.102 ms
+Time to gather 8 responses: 7084.956 ms
+Time to gather 8 responses: 7644.209 ms
+Time to gather 8 responses: 7331.17 ms
+Time to gather 32 responses: 20352.764 ms
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212120000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_120000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212130000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_130000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212140000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_140000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_150000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212160000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_160000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212170000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_170000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212180000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_180000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212190000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_190000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212200000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_200000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212210000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_210000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212220000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_220000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211212230000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211212_230000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213000000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_000000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213010000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_010000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213020000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_020000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213030000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_030000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213040000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_040000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213050000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_050000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213060000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_060000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213070000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_070000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213080000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_080000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213090000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_090000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213100000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_100000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213110000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_110000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213120000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_120000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213130000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_130000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213140000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_140000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_150000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213160000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_160000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213170000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_170000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213180000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_180000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213190000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_190000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Time to gather 32 responses: 19191.571 ms
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213210000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_210000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211213230000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211213_230000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211214060000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211214_060000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211214110000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211214_110000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211214130000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211214_130000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211214150000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211214_150000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211215050000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211215_050000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Error: 502; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20211215220000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20211215_220000-v02.0-fv01.0.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+
+Time to gather 32 responses: 9182.454 ms
+Time to gather 32 responses: 9995.242 ms
+Time to gather 32 responses: 9307.273 ms
+Time to gather 32 responses: 11685.301 ms
+Time to gather 32 responses: 10565.839 ms
+Time to gather 32 responses: 10369.254 ms
+Time to gather 32 responses: 10367.637 ms
+Time to gather 32 responses: 10777.721 ms
+Error: 404; https://opendap.sit.earthdata.nasa.gov/collections/C2036877806-POCLOUD/granules/20220101000000-OSISAF-L3C_GHRSST-SSTsubskin-GOES16-ssteqc_goes16_20220101_000000-v02.0-fv01.0.dap.dap.nc4?dap4.ce=/lon;/lat;/wind_speed
+

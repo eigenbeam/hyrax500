@@ -1,0 +1,52 @@
+Time to gather 1 responses: 8607.453 ms
+Time to gather 1 responses: 8321.851 ms
+Time to gather 1 responses: 7238.876 ms
+Time to gather 1 responses: 6209.712 ms
+Time to gather 1 responses: 5861.387 ms
+Time to gather 1 responses: 6911.777 ms
+Time to gather 1 responses: 7074.2 ms
+Time to gather 1 responses: 6934.387 ms
+Time to gather 1 responses: 6024.829 ms
+Time to gather 1 responses: 6360.166 ms
+Time to gather 1 responses: 6188.389 ms
+Time to gather 1 responses: 5953.791 ms
+Time to gather 1 responses: 6409.174 ms
+Time to gather 1 responses: 6621.553 ms
+Time to gather 1 responses: 6900.82 ms
+Time to gather 1 responses: 7103.177 ms
+Time to gather 1 responses: 6886.295 ms
+Time to gather 1 responses: 5638.237 ms
+Time to gather 1 responses: 6838.124 ms
+Time to gather 1 responses: 7008.886 ms
+Time to gather 8 responses: 8241.222 ms
+Time to gather 8 responses: 7587.721 ms
+Time to gather 8 responses: 7159.979 ms
+Time to gather 8 responses: 7300.297 ms
+Time to gather 8 responses: 7562.772 ms
+Time to gather 8 responses: 7076.205 ms
+Time to gather 8 responses: 7271.102 ms
+Time to gather 8 responses: 7084.956 ms
+Time to gather 8 responses: 7644.209 ms
+Time to gather 8 responses: 7331.17 ms
+Time to gather 32 responses: 10933.419 ms
+Time to gather 32 responses: 9182.454 ms
+Time to gather 32 responses: 9995.242 ms
+Time to gather 32 responses: 9307.273 ms
+Time to gather 32 responses: 11685.301 ms
+Time to gather 32 responses: 10565.839 ms
+Time to gather 32 responses: 10369.254 ms
+Time to gather 32 responses: 10367.637 ms
+Time to gather 32 responses: 10777.721 ms
+
+Access to cached data
+Time to gather 32 responses: 7810.081 ms
+Time to gather 32 responses: 9441.022 ms
+Time to gather 32 responses: 16269.816 ms
+Time to gather 32 responses: 7592.338 ms
+Time to gather 32 responses: 8834.325 ms
+Time to gather 32 responses: 7315.399 ms
+Time to gather 32 responses: 7114.032 ms
+Time to gather 32 responses: 6992.13 ms
+Time to gather 32 responses: 7133.474 ms
+
+
