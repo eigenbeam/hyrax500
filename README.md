@@ -1,3 +1,20 @@
+## NOTES
+
+There are 10 unique granules in SIT_URLS_DAP_500.txt. They are:
+
+(base) jgallag4@GSLAL2023031970 hyrax500-2 % sed 's@.*\(collections.*\)\.dap.*@\1@g' < SIT_URLS_DAP_500.txt | sort -u
+
+collections/C2146321631-POCLOUD/granules/cyg02.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg03.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg03.ddmi.s20180802-000000-e20180802-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg04.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg06.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg06.ddmi.s20180802-000000-e20180802-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg07.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg07.ddmi.s20180802-000000-e20180802-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg08.ddmi.s20180801-000000-e20180801-235959.l1.power-brcs.a31.d32
+collections/C2146321631-POCLOUD/granules/cyg08.ddmi.s20180802-000000-e20180802-235959.l1.power-brcs.a31.d32
+
 ## Instructions
 
 1. Create a file named `token.txt` and add your EDL user token to it
