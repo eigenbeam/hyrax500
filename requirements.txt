@@ -1,2 +1,6 @@
-aiohttp==3.8.3
-funcy==1.17
+boto3
+aiohttp #==3.8.3
+funcy #==1.17
+re
+csv
+
